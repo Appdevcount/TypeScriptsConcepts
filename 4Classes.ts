@@ -18,7 +18,7 @@ class Animal {
         console.log(`${this.name} moved ${distanceInMeters}m.`);
     }
 }
-
+//DNT shailendra says its mandatory to call Base class constructor using super() keywrd in child class contructor
 class Snake extends Animal {
     constructor(name: string) { super(name); }
     move(distanceInMeters = 5) {
@@ -312,3 +312,7 @@ interface Point3d extends Point {
 }
 
 let point3d: Point3d = {x: 1, y: 2, z: 3};
+
+export class TEST{
+    
+}
